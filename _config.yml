@@ -1,9 +1,9 @@
 # Site settings
-title: tracenight个人博客
-email: 2606537612@qq.com
-description: 个人博客
+title: 孔令贤的个人博客
+email: larrykong2016@gmail.com
+description: > #孔令贤的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://trace-night.github.io" # the base hostname & protocol for your site
+url: "https://lingxiankong.github.io" # the base hostname & protocol for your site
 
 # Paginate（分页）
 #gems: [jekyll-paginate]
@@ -29,11 +29,13 @@ favicon: /assets/image/favicon.ico
 
 # 博客作者相关
 author:
-  name: trace-night
-  email: 2606537612@qq.com
-  link: http://trace-night.github.io/
-  github: https://github.com/trace-night
-  github_username: trace-night
+  name: Lingxian Kong
+  email: lingxian.kong.nz@gmail.com
+  link: http://lingxiankong.github.io/
+  weibo: http://www.weibo.com/lingxiankong
+  weibo_username: Lingxian_Kong
+  github: https://github.com/lingxiankong
+  github_username: lingxiankong
 
 
 locals:
@@ -44,13 +46,17 @@ subscribe_rss: /pages/atom.xml
 
 # 头像
 avatar: /assets/image/avatar.png
+# avatar: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/favicon.ico
 # 网站CSS路径
 css: /assets/css/
+# css: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/css/
 # 网站JS路径
 js: /assets/js/
+# js: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/js/
 # 网站图片路径
 image: /assets/image/
+# image: http://7xpapo.com1.z0.glb.clouddn.com/blog/assets/image/
 
 # disqus 设置
 disqus:
-  shortname: trace-night
+  shortname: lingxiankong
