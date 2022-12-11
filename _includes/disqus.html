@@ -18,6 +18,7 @@
         owner: 'trace-night',          // 仓库的创建者，
         admin: ['trace-night'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
         id: gitalkId,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+        proxy: 'https://vercel.prohibitorum.top/github_access_token'
     })
     console.log(' location href:' + location.pathname)
     gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
