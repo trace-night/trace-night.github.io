@@ -5,6 +5,11 @@
 <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
 
 <script type="text/javascript">
+
+    var gitalkId = 'index'
+    if ('/' !== location.pathname) {
+        gitalkId = location.pathname
+    }
     
     var gitalk = new Gitalk({
         clientID: '786d620fe1600c7054f5', // GitHub Application Client ID
@@ -12,7 +17,8 @@
         repo: 'trace-night.github.io',      // 存放评论的仓库
         owner: 'trace-night',          // 仓库的创建者，
         admin: ['trace-night'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
-        id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+        id: gitalkId,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
     })
+    console.log(' location href:' + location.pathname)
     gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
 </script>
