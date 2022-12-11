@@ -1,7 +1,7 @@
 # Site settings
 title: tracenight个人博客
 email: 2606537612@qq.com
-description: > #个人博客
+description: 个人博客
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://trace-night.github.io" # the base hostname & protocol for your site
 
@@ -29,7 +29,7 @@ favicon: /assets/image/favicon.ico
 
 # 博客作者相关
 author:
-  name: trace_night
+  name: trace-night
   email: 2606537612@qq.com
   link: http://trace-night.github.io/
   github: https://github.com/trace-night
