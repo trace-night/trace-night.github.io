@@ -8,3 +8,5 @@ title: 碎碎念 - 个人博客
 
 
 ---
+
+{% include disqus.html %}
